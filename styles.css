@@ -1,0 +1,223 @@
+@charset "utf-8";
+/*CSS Stylesheet for CTEC 3350 Assignment 1*/
+
+*{
+    color:#EEEEEE;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	font-size:13pt;	
+}
+
+h1{
+	font-size:36pt;
+	text-align:center;	
+}
+
+li{
+	font-size:14pt;	
+	font-weight:400;
+}
+
+body{
+	background:#AAAAAA;	
+}
+
+div.clearDiv{
+	clear:both;	
+}
+
+#wrapper{
+	width:965px;	
+	margin:0px auto;
+	position:relative;
+}
+
+/* Header Styles */
+
+/* End Header Styles */
+
+/* NavMenu Styles*/
+
+#navMenu{
+	width:965px;
+	margin:150px auto 0px;	
+}
+
+ul.navigation{
+	width:850px;
+	margin:5px auto;
+	list-style-type:none;
+}
+
+ul.navigation li{
+	display:inline;	
+}
+
+ul.navigation a{
+	font:12pt Arial, Helvetica, sans-serif;
+	display:block;
+	width:141px;
+	height:20px;
+	margin:5px;
+	padding:5px;
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+ul.navigation a:hover{
+	background-color:#444444;	
+	border:none;
+	width:143px;
+}
+
+/* End NavMenu Styles*/
+
+/* Body Styles */
+
+#leftText{
+	width:66%;
+	left-margin:15px;
+	float:left;
+}
+
+.nonBulleted{
+	list-style-type:none;	
+}
+
+.bulleted{
+	list-style-type:disc;	
+}
+
+.bold{
+	font-weight:bold;	
+}
+
+p.resumeBody{
+	margin:25px;
+}
+
+p.resumeBody h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p.bodytext{
+	font:12pt Arial, Helvetica, sans-serif;
+	width:750px;
+	padding:20px 0px;
+	line-height:1.25em;
+}
+
+p.faqtext{
+	margin-left:2.5em;
+	text-indent:2.5em;	
+}
+
+p.aboutText{
+	font:12pt Arial, Helvetica, sans-serif;
+	line-height:1.25em;
+	text-indent:2.5em;
+}
+
+#mainBody{
+	width:850px;	
+	padding:25px;
+	background-color:rgba(0,0,0,.4);
+	border-radius:15px;
+	-moz-border-radius:15px;
+	max-height:90%;
+}
+
+#myPic{
+	height:640px;
+	position:absolute;
+	top:-20px;
+	left:10px;
+	z-index:-999;
+	opacity:.6;
+
+}
+#MattPic{
+	width:33%;	
+	float:left;
+}
+
+.errorHeader{
+	line-height:.75em;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bold;
+}
+
+h1.errorHeader{
+	text-align:center;	
+	font-size:72pt;	
+}
+
+h2.errorHeader{
+	margin-left:1em;
+	font-size:48pt;	
+}
+
+/* End Body Styles */
+
+/* Gallery Styles */
+
+div.galleryItem{
+	width:400px;
+	float:left;
+}
+
+div.galleryItem h2{
+	text-align:center;	
+}
+
+div.galleryItem a{
+	display:block;
+	text-decoration:none;	
+}
+
+div.galleryItem img{
+	width:400px;
+	height:225px;
+	border-radius:15px;
+	-moz-border-radius:15px;	
+}
+
+.left{
+	margin-right:25px;	
+}
+
+.right{
+	margin-left:25px;
+}
+
+/* End Gallery Styles */
+
+/* Portfolio Styles */
+
+img.folioPic{
+	width:80%;
+	margin:15px 10%;	
+	border-radius:5px;
+}
+
+/* Footer Styles */
+
+#footer{
+	width:965px;
+	position:fixed;
+	bottom:0px;
+}
+
+#footer p{
+	text-align:center;	
+	font-size:10pt;
+}
+
+/* End Footer Styles */
